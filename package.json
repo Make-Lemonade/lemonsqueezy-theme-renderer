@@ -6,6 +6,8 @@
     "build": "vue-cli-service build --target lib src/lib.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/theme-renderer.common.js",
+  "browser": "dist/theme-renderer.umd.js",
   "files": ["dist"],
   "dependencies": {
     "core-js": "^3.6.5",
